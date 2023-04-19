@@ -22,7 +22,7 @@ class App():
             sys.exit(1)
 
         self.dm = DataManager(self.config['sqlite_path'])
-        self.tb = TelegramBot(self.config['bot_token'], self.dm)
+        self.tb = TelegramBot(self.config['bot_token'], self.dm, self.config['image_tempdir'])
 
     def start(self):
         self.tb.start()

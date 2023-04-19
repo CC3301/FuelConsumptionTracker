@@ -1,3 +1,4 @@
 ---
 bot_token: "<your-bot-token>"
 sqlite_path: "/path/to/sqlite/database.db"
+image_tempdir: "/path/to/dir/for/storing/temporary/image/files"
