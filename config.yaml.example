@@ -1,0 +1,3 @@
+---
+bot_token: "<your-bot-token>"
+sqlite_path: "/path/to/sqlite/database.db"

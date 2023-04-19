@@ -1,0 +1,15 @@
+"/new" -> new entry
+    | - "odo: <int>"
+    | - "dist: <float>"
+    | - "liter: <float>"
+    | - "bill: <float>"
+
+"/reset" -> reset current entry being added
+
+"/list"       -> list last 5 entries
+"/list <int>" -> list last <int> entries
+
+"/show <int>" -> show <int> entry in detail
+
+"/hist con"   -> show historical consumption data
+"/hist price" -> show historical price per liter data
