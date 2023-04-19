@@ -1,2 +1,3 @@
 config.yaml
 test.db
+*_pycache_*
